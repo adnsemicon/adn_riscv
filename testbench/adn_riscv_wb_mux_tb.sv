@@ -13,7 +13,7 @@
 | 1.0      | 2026-09-13 | Ahasan Ullah Khalid | Initial testbench adhering to ADN VIP verification standards                          |
 
 Author : Ahasan Ullah Khalid (aukhalid02@gmail.com)
-This file is part of ADN-VLSI/adn_riscv
+This file is part of adnsemicon/adn_riscv
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information

@@ -13,7 +13,7 @@ correctness checks the other tests already cover.
 
 Author : Md Sakhawat Hossain Sabbir
 Date   : 2026-09-10
-This file is part of ADN-VLSI/adn_riscv
+This file is part of adnsemicon/adn_riscv
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information

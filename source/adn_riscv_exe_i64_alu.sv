@@ -49,7 +49,7 @@ word_op_i ─────┘                                         └──> 
 | 1.0      | 2026-09-01 | Mohiuddin Reyad | Stable release                                         |
 
 Author : Mohiuddin Reyad (mreyad30207@gmail.com)
-This file is part of ADN-VLSI/adn_riscv
+This file is part of adnsemicon/adn_riscv
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information

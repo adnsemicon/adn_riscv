@@ -18,7 +18,7 @@
 
 
 Author : Shykul Islam Siam (shykulislam32@gmail.com)
-This file is part of ADN-VLSI/adn_riscv
+This file is part of adnsemicon/adn_riscv
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information

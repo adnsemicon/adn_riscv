@@ -16,7 +16,7 @@ The `adn_riscv_instr_decoder` is a critical component in the instruction fetch/d
 | 1.0      | 2026-08-18 | Foez Ahmed | Stable release                                         |
 
 Author : Foez Ahmed (foez.official@gmail.com)
-This file is part of ADN-VLSI/adn_riscv
+This file is part of adnsemicon/adn_riscv
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information

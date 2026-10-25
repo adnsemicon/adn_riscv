@@ -33,7 +33,7 @@
 
 Author : Adnan Sami Anirban (adnananirban259@gmail.com) , Md Sakhawat Hossain Sabbir (sabbirone939@gmail.com) , Motasim Faiyaz (motasimfaiyaz@gmail.com) ,
 Annim Jannat (jannatannim@gmail.com) , Md. Sakib Hasan Shawon (mdsakibhasanshawon20@gmail.com) 
-This file is part of ADN-VLSI/adn_riscv
+This file is part of adnsemicon/adn_riscv
 Copyright (c) 2026 ADN Semiconductors
 Licensed under the MIT License
 See LICENSE file in the project root for full license information
