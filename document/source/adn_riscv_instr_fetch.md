@@ -12,7 +12,32 @@
 
 ## Parameters
 
-_None_
+|Name|Type|Dimension|Default|Description|
+|-|-|-|-|-|
+|XLEN|int||64|Data width of the processor|
+|DATA_WIDTH|int||32||
+
+
+## Ports
+
+|Name|Direction|Type|Dimension|Description|
+|-|-|-|-|-|
+|clk_i|input|logic|||
+|arst_ni|input|logic|||
+|bootaddr_i|input|logic [XLEN-1:0]|||
+|icache_addr_o|output|logic [XLEN-1:0]|||
+|pipeline_pc_o|output|logic [XLEN-1:0]|||
+|icache_data_i|input|logic [DATA_WIDTH-1:0]|||
+|pipeline_code_o|output|logic [DATA_WIDTH-1:0]|||
+|icache_gnt_i|input|logic|||
+|pipeline_valid_o|output|logic|||
+|pipeline_ready_i|input|logic|||
+|icache_req_o|output|logic|||
+|exe_direct_load_next_i|input|logic|||
+|exe_next_addr_i|input|logic [XLEN-1:0]|||
+|exe_curr_addr_i|input|logic [XLEN-1:0]|||
+|exe_is_jump_i|input|logic|||
+|pipeline_clear_o|output|logic|||
 
 
 ## Description
