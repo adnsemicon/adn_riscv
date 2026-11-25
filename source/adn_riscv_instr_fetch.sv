@@ -18,7 +18,7 @@ See LICENSE file in the project root for full license information
 */
 
 // @foez---bhai, add comments to the parameters, ports
-module adn_riscv_instr_fetch.sv #(
+module adn_riscv_instr_fetch #(
     parameter int XLEN    = 64,  // Data width of the processor
     parameter int DATA_WIDTH = 32
     // LOCALPARAMS
