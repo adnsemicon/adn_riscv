@@ -16,6 +16,7 @@
 |-|-|-|-|-|
 |XLEN|int||64|Data width of the processor|
 |DATA_WIDTH|int||32||
+|NUM_BTB|int||32||
 
 
 ## Ports
