@@ -5,6 +5,7 @@ ${ADN_RISCV}/source/adn_riscv_exe_i64_alu.sv
 ${ADN_RISCV}/source/adn_riscv_exe_i64_lsu.sv
 ${ADN_RISCV}/source/adn_riscv_exe_m64_mult.sv
 ${ADN_RISCV}/source/adn_riscv_instr_decoder.sv
+${ADN_RISCV}/source/adn_riscv_instr_fetch.sv
 ${ADN_RISCV}/source/adn_riscv_instr_launcher.sv
 ${ADN_RISCV}/source/adn_riscv_instr_order_checker.sv
 ${ADN_RISCV}/source/adn_riscv_regfile.sv
