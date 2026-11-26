@@ -20,7 +20,8 @@ See LICENSE file in the project root for full license information
 // @foez---bhai, add comments to the parameters, ports
 module adn_riscv_instr_fetch #(
     parameter int XLEN    = 64,  // Data width of the processor
-    parameter int DATA_WIDTH = 32
+    parameter int DATA_WIDTH = 32,
+    parameter int NUM_BTB = 32
     // LOCALPARAMS
 ) (
     input logic                   clk_i,
@@ -58,10 +59,10 @@ module adn_riscv_instr_fetch #(
   //////////////////////////////////////////////////////////////////////////////////////////////////
   
   logic i_cen;
-  logic arst_ni;
   logic [XLEN-1:0] current_addr_i;
   logic [XLEN-1:0] next_addr_i;
   logic [XLEN-1:0] pc_i;
+  logic [XLEN-1:0] pc_o;
   logic [XLEN-1:0] next_pc_o;
   logic [XLEN-1:0] m_mux_o; 
   logic is_jump_i;
@@ -84,7 +85,7 @@ module adn_riscv_instr_fetch #(
 
   always_comb begin
       m_mux_o = '0;
-      case (s1,s0)
+      case ({s1,s0})
         2'b00: m_mux_o = pc_mux + 4;
         2'b01: m_mux_o = next_pc_o;
         2'b10,2'b11: m_mux_o = exe_next_addr_i;
@@ -98,7 +99,7 @@ module adn_riscv_instr_fetch #(
     .NUM_BTB(NUM_BTB),
     .XLEN   (XLEN)
   ) u_adn_riscv_btb (
-        .clk_i          ( clk_i)
+        .clk_i          ( clk_i),
         .arst_ni        ( arst_ni),
         .current_addr_i ( exe_curr_addr_i   ),
         .next_addr_i    ( exe_next_addr_i   ),   
